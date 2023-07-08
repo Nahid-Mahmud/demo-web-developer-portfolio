@@ -125,20 +125,22 @@ nav li {
 
 /* about section starts  */
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .about {
-  padding: 131px 157px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  padding-left: 156px;
+  padding-right: 156px;
   border-radius: 10px;
-background-color: #FFF8F3;
-margin: 130px 230px;
+  background: #fff8f3;
+  margin: 130px 0 130px 0;
 }
 
 .section-description {
   color: #757575;
-  width: 827px;
   text-align: center;
   font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  margin: auto;
-  padding: 30px 0px;
 }

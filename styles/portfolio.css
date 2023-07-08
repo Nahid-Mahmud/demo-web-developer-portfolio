@@ -122,13 +122,13 @@ nav li {
 /* header section ends  */
 
 /* main section starts   */
-
-/* about section starts  */
-
 main {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/* about section starts  */
+
 .about {
   padding-top: 130px;
   padding-bottom: 130px;
@@ -143,4 +143,30 @@ main {
   color: #757575;
   text-align: center;
   font-size: 18px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.about-info {
+  text-align: center;
+}
+.info-title {
+  color: #757575;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.info-description{
+    color: #474747;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
 }

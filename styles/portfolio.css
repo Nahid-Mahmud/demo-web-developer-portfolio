@@ -265,9 +265,57 @@ main {
   padding-bottom: 30px;
   border-bottom: 1px solid #d1d1d1;
 }
-.second-button-download{
-    text-align: center;
-    margin-top: 50px ;
-    margin-bottom: 110px;
+.second-button-download {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 110px;
 }
 /* resuem secton ends  */
+
+/* footer section starts here */
+footer {
+  height: 780px;
+  background-color: #fff8f3;
+}
+.footer-container {
+  margin: 0 auto;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background: #fff8f3;
+}
+.footer-description {
+  width: 562px;
+  color: #474747;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.footer-icons img {
+  margin: 24px;
+}
+#input-text,
+.input-text-common {
+  width: 461px;
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  background: #ffffff;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+#text-area-footer {
+  width: 461px;
+  height: 180px;
+  border-radius: 5px;
+  background: #fff;
+  padding:18px 30px;
+}
+.submit-button{
+    margin-top: 42px;
+}
+
+/* end */

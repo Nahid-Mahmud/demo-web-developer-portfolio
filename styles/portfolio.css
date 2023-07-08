@@ -1,7 +1,5 @@
 * {
   font-family: "Open Sans", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 /* shared styles */
 
@@ -66,14 +64,15 @@ nav li {
 /* header related Style */
 .main-header-conainer {
   background-color: #fff4ec;
+  background-image: url("../images/developer.png");
+  background-repeat: no-repeat;
 }
-
 .banner {
   padding: 30px 30px 0px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../images/header_bg.png);
+  background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -225,11 +224,12 @@ main {
   width: 201px;
   margin-bottom: 0;
 }
+
+/* resume section */
+
 .resume-title {
   margin: 130px 0;
 }
-
-/* resume section */
 .resume-collum-title {
   color: #474747;
   font-size: 30px;
@@ -238,7 +238,8 @@ main {
 }
 .resume-container {
   display: flex;
-  gap: 20px;
+  gap: 200px;
+  text-align: justify;
 }
 .resume--item-title {
   color: #474747;
@@ -306,17 +307,17 @@ footer {
   background: #ffffff;
   margin-bottom: 24px;
   margin-top: 24px;
-  padding:18px;
+  padding: 18px;
 }
 #text-area-footer {
   width: 461px;
   height: 180px;
   border-radius: 5px;
   background: #fff;
-  padding:18px 30px;
+  padding: 18px 30px;
 }
-.submit-button{
-    margin-top: 42px;
+.submit-button {
+  margin-top: 42px;
 }
 
 /* end */

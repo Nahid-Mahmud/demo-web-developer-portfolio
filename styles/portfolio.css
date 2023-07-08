@@ -162,11 +162,33 @@ main {
   font-weight: 400;
   line-height: 30px;
 }
-.info-description{
-    color: #474747;
-    font-weight: bold;
-    text-align: center;
-    font-size: 20px;
-    font-style: normal;
-    line-height: 30px;
+.info-description {
+  color: #474747;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 30px;
+}
+.what-i-do {
+  text-align: center;
+}
+.what-i-do-heading {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.what-i-do-description {
+  padding: 30px 110px;
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* skill section starts here  */
+.skill-main-container {
+  display: flex;
+  margin: 50px 30px 130px 30px;
 }

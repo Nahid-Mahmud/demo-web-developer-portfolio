@@ -85,16 +85,14 @@ nav li {
   width: 500px;
 }
 .btn-contact {
-  width: 160px;
+  width: 200px;
   height: 64px;
-  flex-shrink: 0;
   color: #fd6e0a;
   border-radius: 5px;
   border: 1px solid #fd6e0a;
   margin-left: 1.9rem;
   background: #fff8f3;
   color: #fd6e0a;
-  text-align: center;
   font-size: 20px;
   font-weight: 700;
 }

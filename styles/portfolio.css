@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   font-family: "Open Sans", sans-serif;
 }
 /* shared styles */
@@ -66,6 +68,9 @@ nav li {
   background-color: #fff4ec;
   background-image: url("../images/developer.png");
   background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: left bottom;
+  padding-top: 20px;
 }
 .banner {
   padding: 30px 30px 0px 150px;
@@ -275,7 +280,6 @@ main {
 
 /* footer section starts here */
 footer {
-  height: 780px;
   background-color: #fff8f3;
 }
 .footer-container {

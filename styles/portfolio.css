@@ -316,7 +316,8 @@ footer {
   height: 180px;
   border-radius: 5px;
   background: #fff;
-  padding: 18px 30px;
+  padding: 18px;
+  border: none;
 }
 .submit-button {
   margin-top: 42px;
